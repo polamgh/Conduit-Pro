@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Conduit Manager for macOS
+# 🌐 Conduit Pro for macOS
 
 ### The easiest way to run, monitor, and manage a Psiphon Conduit node on macOS
 
