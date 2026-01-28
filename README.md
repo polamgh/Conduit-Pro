@@ -4,7 +4,7 @@
 
 ### The easiest way to run, monitor, and manage a Psiphon Conduit node on macOS
 
-Helping people in censored regions access the free internet. 🕊️
+Helping people in censored regions access the free Iran. 🕊️
 
 **[English](#-quick-start) · [فارسی](#-راهنمای-نصب-فارسی)**
 
@@ -40,14 +40,14 @@ You must have **Docker Desktop** installed and running.
 Open your Terminal app and paste this command. It automatically downloads, installs, and fixes permissions:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/polamgh/conduit-manager-mac/main/install.sh | bash
+curl -fsSL https://github.com/polamgh/Conduit-Pro/main/install.sh | bash
 ```
 
 #### Option B: Manual Download
 
 If you prefer to download the file yourself:
 
-1. Go to the [Releases Page](https://github.com/polamgh/conduit-manager-mac/releases)
+1. Go to the [Releases Page](https://github.com/polamgh/Conduit-Pro/releases)
 2. Download `Conduit.zip` or `Conduit Pro.zip`
 3. Unzip and move the app to your Applications folder
 4. Right-click and select "Open" to bypass security warnings (if needed)
@@ -129,12 +129,12 @@ This project is open-source and licensed under the **[MIT License](LICENSE)**.
 ترمینال را باز کنید و دستور زیر را اجرا کنید (این روش تمام مجوزها را خودکار تنظیم می‌کند):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/polamgh/conduit-manager-mac/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/polamgh/Conduit-Pro/main/install.sh | bash
 ```
 
 #### روش دوم: دانلود دستی
 
-1. به صفحه [Releases](https://github.com/polamgh/conduit-manager-mac/releases) بروید
+1. به صفحه [Releases](https://github.com/polamgh/Conduit-Pro/releases) بروید
 2. فایل فشرده (`Conduit.zip` یا `Conduit Pro.zip`) را دانلود کنید
 3. برنامه را در پوشه Applications کپی کنید
 4. اگر موقع باز کردن خطا داد، روی برنامه کلیک راست کنید و Open را بزنید
