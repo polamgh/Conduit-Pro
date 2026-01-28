@@ -39,7 +39,8 @@ You must have **Docker Desktop** installed and running.
 
 Open your Terminal app and paste this command. It automatically downloads, installs, and fixes permissions:
 
-```curl -fsSL https://raw.githubusercontent.com/polamgh/Conduit-Pro/main/install.sh | bash
+```bash
+curl -fsSL https://raw.githubusercontent.com/polamgh/Conduit-Pro/main/install.sh | bash
 ```
 
 #### Option B: Manual Download
