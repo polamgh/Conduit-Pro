@@ -1,101 +1,74 @@
 <div align="center">
 
-🌐 Conduit Manager for macOS
+# 🌐 Conduit Manager for macOS
 
-The easiest way to run, monitor, and manage a Psiphon Conduit node on macOS.
-
-
-
-
+### The easiest way to run, monitor, and manage a Psiphon Conduit node on macOS
 
 Helping people in censored regions access the free internet. 🕊️
 
-English · فارسی
+**[English](#-quick-start) · [فارسی](#-راهنمای-نصب-فارسی)**
 
-(Note: Interface may vary slightly in newer versions)
+---
 
 </div>
 
-✨ Key Features
+## ✨ Key Features
 
-Feature
+| Feature | Description |
+|---------|-------------|
+| 🚀 **One-Click Install** | No complex terminal commands. Just one line to setup everything. |
+| 🖥️ **Native Dashboard** | Beautiful macOS app to monitor CPU, RAM, and Speed. |
+| 🎁 **Claim Rewards** | Built-in QR Code generator to claim your node rewards in Ryve. |
+| 🛡️ **Security Hardened** | Runs in an isolated Docker container with read-only filesystem. |
+| 🔄 **Auto Update** | Keep your node up-to-date with a single click. |
+| 🆔 **Identity Backup** | Easily Backup & Restore your node_key to keep your reputation. |
 
-Description
+---
 
-🚀 One-Click Install
+## 🚀 Quick Start
 
-No complex terminal commands. Just one line to setup everything.
+### 1. Prerequisites
 
-🖥️ Native Dashboard
+You must have **Docker Desktop** installed and running.
 
-Beautiful macOS app to monitor CPU, RAM, and Speed.
+[Download Docker Desktop for Mac →](https://www.docker.com/products/docker-desktop)
 
-🎁 Claim Rewards
+### 2. Installation Options
 
-Built-in QR Code generator to claim your node rewards in Ryve.
-
-🛡️ Security Hardened
-
-Runs in an isolated Docker container with read-only filesystem.
-
-🔄 Auto Update
-
-Keep your node up-to-date with a single click.
-
-🆔 Identity Backup
-
-Easily Backup & Restore your node_key to keep your reputation.
-
-🚀 Quick Start
-
-1. Prerequisites
-
-You must have Docker Desktop installed and running.
-
-Download Docker Desktop for Mac
-
-2. Installation Options
-
-Option A: Automatic Install (Recommended)
+#### Option A: Automatic Install (Recommended) ✅
 
 Open your Terminal app and paste this command. It automatically downloads, installs, and fixes permissions:
 
-curl -fsSL [https://raw.githubusercontent.com/polamgh/conduit-manager-mac/main/install.sh](https://raw.githubusercontent.com/polamgh/conduit-manager-mac/main/install.sh) | bash
+```bash
+curl -fsSL https://raw.githubusercontent.com/polamgh/conduit-manager-mac/main/install.sh | bash
+```
 
-
-Option B: Manual Download
+#### Option B: Manual Download
 
 If you prefer to download the file yourself:
 
-Go to the Releases Page.
+1. Go to the [Releases Page](https://github.com/polamgh/conduit-manager-mac/releases)
+2. Download `Conduit.zip` or `Conduit Pro.zip`
+3. Unzip and move the app to your Applications folder
+4. Right-click and select "Open" to bypass security warnings (if needed)
 
-Download Conduit.zip (or Conduit Pro.zip).
+### 3. Usage
 
-Unzip and move the app to your Applications folder.
+1. Open **Conduit** from your Applications folder
+2. Set your **Max Clients** (e.g., 200) and **Bandwidth**
+3. Click **Start Service**
+4. Wait for the status to turn **Running & Healthy**
 
-Note: You might need to right-click and select "Open" to bypass security warnings.
+> **Note:** It may take 1 to 24 hours for the Psiphon network to discover your node and for users to connect. Please be patient if you see "0 Users" initially.
 
-3. Usage
+---
 
-Open Conduit from your Applications folder.
+## 🎁 How to Claim Rewards
 
-Set your Max Clients (e.g., 200) and Bandwidth.
-
-Click Start Service.
-
-Wait for the status to turn Running & Healthy.
-
-Note: It may take 1 to 24 hours for the Psiphon network to discover your node and for users to connect. Please be patient if you see "0 Users" initially.
-
-🎁 How to Claim Rewards
-
-Open the app and ensure the service is Running.
-
-Click the Claim Rewards button (or QR icon).
-
-Scan the generated QR Code using the Ryve App.
-
-Your node is now linked to your wallet!
+1. Open the app and ensure the service is **Running**
+2. Click the **Claim Rewards** button (or QR icon)
+3. Scan the generated QR Code using the **Ryve App**
+4. Your node is now linked to your wallet!
 
 <div dir="rtl" align="right">
 
