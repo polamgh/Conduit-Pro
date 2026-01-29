@@ -4,6 +4,8 @@
 
 ### The easiest way to run, monitor, and manage a Psiphon Conduit node on macOS
 
+### 📖 [Easy Installation Help](https://polamgh.com/conduit)
+
 Helping people in censored regions access the free Iran. 🕊️
 
 <img src="screenshot.png" alt="Conduit Dashboard" width="800" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.2);">
