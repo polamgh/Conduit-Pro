@@ -38,7 +38,15 @@ You must have **Docker Desktop** installed and running.
 
 ### 2. Installation Options
 
-#### Option A: Automatic Install (Recommended) ✅
+#### Option A: Homebrew (Recommended) ✅
+
+If you have Homebrew installed, simply run:
+
+```bash
+brew install --cask conduit
+```
+
+#### Option B: Automatic Install ✅
 
 Open your Terminal app and paste this command. It automatically downloads, installs, and fixes permissions:
 
@@ -46,7 +54,7 @@ Open your Terminal app and paste this command. It automatically downloads, insta
 curl -fsSL https://raw.githubusercontent.com/polamgh/Conduit-Pro/main/install.sh | bash
 ```
 
-#### Option B: Manual Download
+#### Option C: Manual Download
 
 If you prefer to download the file yourself:
 
